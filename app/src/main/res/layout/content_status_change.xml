@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.StatusChangeActivity"
+    tools:showIn="@layout/activity_status_change">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:id="@+id/cardView"
+
+            android:layout_marginTop="5dp"
+            app:cardElevation="4dp">
+
+
+        <RelativeLayout
+            android:id="@+id/root"
+
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/r1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/table2"
+
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:paddingEnd="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp">
+                        <TextView
+                            android:id="@+id/txt1"
+
+                            android:text="Task No."
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginStart="5dp"
+                            android:textSize="15sp"
+                            android:layout_weight="0.9"
+
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="#212121" />
+
+                        <TextView
+                            android:id="@+id/task_no"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="1000000000"
+                            android:layout_weight="1.2"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:textStyle="bold"
+
+                            android:textColor="@color/secondary_text"
+                            android:textSize="15dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt2"
+
+                            android:text="Call No."
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginStart="5dp"
+                            android:textSize="15sp"
+                            android:layout_weight="0.7"
+
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="#212121" />
+
+
+                        <TextView
+                            android:id="@+id/call_no"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="1000000000"
+                            android:layout_weight="1.2"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:textColor="@color/secondary_text"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            />
+
+                    </TableRow>
+
+                </TableLayout>
+
+
+
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view_1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/r1"
+                android:background="@color/secondary_text" />
+
+            <RelativeLayout
+                android:id="@+id/r2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/text_1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Current Status"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/status_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toEndOf="@+id/text_1"
+                    android:layout_toRightOf="@+id/text_1"
+                    android:paddingEnd="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:paddingStart="20dp"
+                    android:text="100256360"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/r2"
+                android:background="@color/secondary_text" />
+
+            <Spinner
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/r2"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/view"
+                android:layout_below="@+id/status"
+                android:background="@color/secondary_text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/layout_1"
+                android:paddingTop="10dp"
+                android:layout_below="@+id/view"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/inputText"
+                    android:layout_weight="0.5"
+
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:hint="Meter Reading"
+
+                        android:id="@+id/meter_reading_text"
+                        android:layout_height="wrap_content" />
+
+
+
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:hint="Unit: "
+                    android:paddingTop="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/unit_text"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:paddingTop="20dp"
+
+                    android:layout_weight="1"
+                    android:id="@+id/default_uom_text"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Remarks"
+                android:minLines="4"
+                android:layout_below="@+id/layout_1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/cardView"
+            android:layout_margin="16dp"
+            android:background="@drawable/ripple_15"
+            android:text="@string/Save"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

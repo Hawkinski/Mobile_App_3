@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Horizon FMS</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_field_required">This field is required</string>
+
+    <!-- Strings Assigned to SharedPreferences -->
+    <string name="user_name">User Name</string>
+    <string name="user_pwd">user pwd</string>
+    <string name="user_cd">user cd</string>
+    <string name="preferences">preferences</string>
+    <string name="employee_code">emp</string>
+    <string name="assigned_code">assigned code</string>
+    <string name="company_code">company code</string>
+    <string name="employee_designation">employee designation</string>
+    <string name="task_number">Task Number</string>
+    <string name="work_completed_code">work completed</string>
+    <string name="work_progress_code">work progress</string>
+    <string name="fmcall_insp_direct_id">0</string>
+    <string name="reported_date">date</string>
+    <string name="reported_time">time</string>
+    <string name="call_number">Call Number</string>
+    <string name="doc_number">Doc Number</string>
+    <string name="building">Building</string>
+    <string name="location">Location</string>
+    <string name="reported_datetime">dateTime</string>
+    <string name="building_code">Building code</string>
+    <string name="location_code">location code</string>
+    <string name="isInspection">isInspection</string>
+    <string name="isRandom">isRandom</string>
+
+    <string name="asset">asset</string>
+    <string name="scope">scope</string>
+
+    <string name="create_random_task">Create Random Task</string>
+
+    <!-- String related to landing page -->
+    <string name="assigned_task">Assigned Task</string>
+    <string name="task_status_update">Status Update</string>
+    <string name="before_picture">Before Picture</string>
+    <string name="After_picture">After Picture</string>
+    <string name="Save">Save</string>
+    <string name="Remark">Remarks</string>
+    <string name="Start_Task">Start Task</string>
+    <string name="ppm_work_order_no">PPM work order no</string>
+
+
+    <!-- Strings related to other -->
+
+
+    <string name="title_activity_task_details">TaskDetailsActivity</string>
+
+    <string name="title_activity_task_start">TaskStartActivity</string>
+    <string name="title_activity_before_task">BeforeTaskActivity</string>
+
+    <string name="title_activity_close">CloseActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="title_activity_material">MaterialActivity</string>
+    <string name="title_activity_add_material">AddMaterialActivity</string>
+    <string name="title_activity_task_complete">TaskCompleteActivity</string>
+    <string name="title_activity_status_change">StatusChangeActivity</string>
+    <string name="title_activity_ppmwork_order_list">PPMWorkOrderListActivity</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+
+    <string name="map_not_ready">Map is not ready yet</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
